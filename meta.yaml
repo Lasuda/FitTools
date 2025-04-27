@@ -1,0 +1,18 @@
+package:
+  name: fittools
+  version: "0.1.0"
+
+source:
+  path: .
+
+requirements:
+  host:
+    - python >=3.9
+    - pip
+  run:
+    - python >=3.9
+
+about:
+  home: https://example.com
+  license: MIT
+  summary: A simple math utilities package
